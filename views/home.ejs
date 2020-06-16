@@ -1,0 +1,16 @@
+<%- include('includes/header.ejs')%>
+</head>
+
+<body>
+    <div class="container">
+            <div class="row"><br />
+                <div class="col-md-12">
+                  <h3 id="searchh1" class="text-center">Search Your Movie Here</h3><br />
+                    <form action="/results" method="GET" class="justify-content-center d-flex">
+                       <input type="text" required name="search" class="form-control w-25" placeholder="Enter a movie name..">
+                       <button class="ml-3 text-center btn btn-success">Search Movie</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <%- include('includes/footer.ejs')%>
